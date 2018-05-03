@@ -1,5 +1,5 @@
 mkdir /opt/unetlab/addons/qemu/ise-2.4.0.357 && cd $_
-curl -e https://cisco.app.box.com -L "https://cisco.app.box.com/index.php?rm=box_download_shared_file&vanity_name=ISE-Eval&file_id=f_285777496618" -O ISE-2.4.0.357-virtual-Eval.ova
+curl -e https://cisco.app.box.com -L "https://cisco.app.box.com/index.php?rm=box_download_shared_file&vanity_name=ISE-Eval&file_id=f_285777496618" -o ISE-2.4.0.357-virtual-Eval.ova
 tar -xvf ISE-2.4.0.357-virtual-Eval.ova
 cat ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000000 ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000001 ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000002 ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000003 ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000004 ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000005 ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz.000000006 > ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz
 gunzip ISE-2.4.0.357-virtual-Eval-disk1.vmdk.gz
